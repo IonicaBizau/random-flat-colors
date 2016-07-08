@@ -1,0 +1,44 @@
+{
+  "name": "smart-flat-color",
+  "description": "Get a random flat color from a group of colors.",
+  "keywords": [
+    "smart",
+    "flat",
+    "color",
+    "get",
+    "a",
+    "random",
+    "from",
+    "group",
+    "of",
+    "colors"
+  ],
+  "license": "MIT",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "scripts/",
+    "build/",
+    "cli.js",
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/IonicaBizau/smart-flat-color.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/smart-flat-color/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/smart-flat-color#readme"
+}
