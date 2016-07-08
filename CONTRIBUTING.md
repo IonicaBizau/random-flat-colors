@@ -61,6 +61,6 @@ Thanks! :sweat_smile:
 
 
 
-[1]: https://github.com/IonicaBizau/smart-flat-color/issues
+[1]: https://github.com/IonicaBizau/random-flat-color/issues
 
 [2]: https://github.com/IonicaBizau/code-style

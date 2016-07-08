@@ -1,14 +1,14 @@
 
-# smart-flat-color
+# random-flat-color
 
- [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![AMA](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Version](https://img.shields.io/npm/v/smart-flat-color.svg)](https://www.npmjs.com/package/smart-flat-color) [![Downloads](https://img.shields.io/npm/dt/smart-flat-color.svg)](https://www.npmjs.com/package/smart-flat-color) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
+ [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![AMA](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Version](https://img.shields.io/npm/v/random-flat-color.svg)](https://www.npmjs.com/package/random-flat-color) [![Downloads](https://img.shields.io/npm/dt/random-flat-color.svg)](https://www.npmjs.com/package/random-flat-color) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > Get a random flat color from a group of colors.
 
 ## :cloud: Installation
 
 ```sh
-$ npm i --save smart-flat-color
+$ npm i --save random-flat-color
 ```
 
 
@@ -17,7 +17,7 @@ $ npm i --save smart-flat-color
 
 
 ```js
-const smartFlatColor = require("smart-flat-color");
+const smartFlatColor = require("random-flat-color");
 
 console.log(smartFlatColor());
 // => #ecf0f1
@@ -35,15 +35,25 @@ console.log(smartFlatColor("white,gray"));
 ## :memo: Documentation
 
 
-### `smartFlatColor(a, b)`
+### `randomFlatColor(groups, fn)`
 Get a random flat color from a group of colors.
 
 #### Params
-- **Number** `a`: Param descrpition.
-- **Number** `b`: Param descrpition.
+- **Array** `groups`: An array of flat color groups. The supported group names are:
+ - blue
+ - teal
+ - green
+ - purple
+ - dark
+ - yellow
+ - orange
+ - red
+ - white
+ - gray
+- **Boolean** `fn`: If `true`, the random function will be returned (not the color string).
 
 #### Return
-- **Number** Return description.
+- **String|String** That flat color as hex, or the function if `fn` is true.
 
 
 

@@ -2,13 +2,23 @@
 
 You can see below the API reference of this module.
 
-### `smartFlatColor(a, b)`
+### `randomFlatColor(groups, fn)`
 Get a random flat color from a group of colors.
 
 #### Params
-- **Number** `a`: Param descrpition.
-- **Number** `b`: Param descrpition.
+- **Array** `groups`: An array of flat color groups. The supported group names are:
+ - blue
+ - teal
+ - green
+ - purple
+ - dark
+ - yellow
+ - orange
+ - red
+ - white
+ - gray
+- **Boolean** `fn`: If `true`, the random function will be returned (not the color string).
 
 #### Return
-- **Number** Return description.
+- **String|String** That flat color as hex, or the function if `fn` is true.
 
