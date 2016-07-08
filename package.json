@@ -1,8 +1,8 @@
 {
-  "name": "smart-flat-color",
+  "name": "random-flat-color",
   "description": "Get a random flat color from a group of colors.",
   "keywords": [
-    "smart",
+    "random",
     "flat",
     "color",
     "get",
@@ -35,10 +35,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/IonicaBizau/smart-flat-color.git"
+    "url": "git+ssh://git@github.com/IonicaBizau/random-flat-color.git"
   },
   "bugs": {
-    "url": "https://github.com/IonicaBizau/smart-flat-color/issues"
+    "url": "https://github.com/IonicaBizau/random-flat-color/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/smart-flat-color#readme"
+  "homepage": "https://github.com/IonicaBizau/random-flat-color#readme",
+  "dependencies": {
+    "flat-colors-groupped": "^1.0.0",
+    "unique-random-array": "^1.0.0"
+  }
 }
