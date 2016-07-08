@@ -44,5 +44,13 @@
   "dependencies": {
     "flat-colors-groupped": "^1.0.0",
     "unique-random-array": "^1.0.0"
+  },
+  "blah": {
+    "related": [
+      "flat-colors-groupped",
+      "flat-colors",
+      "smart-foreground",
+      "rainbow-sort"
+    ]
   }
 }

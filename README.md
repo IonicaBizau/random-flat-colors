@@ -30,6 +30,13 @@ console.log(smartFlatColor("green"));
 
 console.log(smartFlatColor("white,gray"));
 // => #27ae60
+
+let fn = smartFlatColor("white,gray", true);
+console.log(fn());
+// => #bdc3c7
+
+console.log(fn());
+// => #7f8c8d
 ```
 
 ## :memo: Documentation
@@ -59,6 +66,15 @@ Get a random flat color from a group of colors.
 
 ## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
+
+
+## :sparkles: Related
+
+ - [`flat-colors-groupped`](https://github.com/IonicaBizau/flat-colors-groupped#readme)—Groupped flat colors by their range.
+ - [`flat-colors`](https://github.com/IonicaBizau/flat-colors.js)—Find the nearest flat color for a RGB/Hex input.
+ - [`smart-foreground`](https://github.com/IonicaBizau/smart-foreground#readme)—Calculate matching foreground colors based on backgorund colors.
+ - [`rainbow-sort`](https://github.com/IonicaBizau/rainbow-sort#readme)—Sort a list of given colors in the rainbow order.
+
 
 
 ## :scroll: License
