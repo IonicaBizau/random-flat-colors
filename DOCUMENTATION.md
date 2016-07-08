@@ -2,7 +2,7 @@
 
 You can see below the API reference of this module.
 
-### `randomFlatColor(groups, fn)`
+### `randomFlatColors(groups, fn)`
 Get a random flat color from a group of colors.
 
 #### Params

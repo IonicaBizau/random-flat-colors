@@ -1,14 +1,14 @@
 
-# random-flat-color
+# random-flat-colors
 
- [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![AMA](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Version](https://img.shields.io/npm/v/random-flat-color.svg)](https://www.npmjs.com/package/random-flat-color) [![Downloads](https://img.shields.io/npm/dt/random-flat-color.svg)](https://www.npmjs.com/package/random-flat-color) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
+ [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![AMA](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Version](https://img.shields.io/npm/v/random-flat-colors.svg)](https://www.npmjs.com/package/random-flat-colors) [![Downloads](https://img.shields.io/npm/dt/random-flat-colors.svg)](https://www.npmjs.com/package/random-flat-colors) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > Get a random flat color from a group of colors.
 
 ## :cloud: Installation
 
 ```sh
-$ npm i --save random-flat-color
+$ npm i --save random-flat-colors
 ```
 
 
@@ -17,21 +17,21 @@ $ npm i --save random-flat-color
 
 
 ```js
-const smartFlatColor = require("random-flat-color");
+const randomFlatColors = require("random-flat-colors");
 
-console.log(smartFlatColor());
+console.log(randomFlatColors());
 // => #ecf0f1
 
-console.log(smartFlatColor(["orange", "red"]));
+console.log(randomFlatColors(["orange", "red"]));
 // => #e67e22
 
-console.log(smartFlatColor("green"));
+console.log(randomFlatColors("green"));
 // => #7f8c8d
 
-console.log(smartFlatColor("white,gray"));
+console.log(randomFlatColors("white,gray"));
 // => #27ae60
 
-let fn = smartFlatColor("white,gray", true);
+let fn = randomFlatColors("white,gray", true);
 console.log(fn());
 // => #bdc3c7
 
@@ -42,7 +42,7 @@ console.log(fn());
 ## :memo: Documentation
 
 
-### `randomFlatColor(groups, fn)`
+### `randomFlatColors(groups, fn)`
 Get a random flat color from a group of colors.
 
 #### Params
