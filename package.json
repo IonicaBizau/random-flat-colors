@@ -1,5 +1,5 @@
 {
-  "name": "random-flat-color",
+  "name": "random-flat-colors",
   "description": "Get a random flat color from a group of colors.",
   "keywords": [
     "random",
@@ -35,12 +35,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/IonicaBizau/random-flat-color.git"
+    "url": "git+ssh://git@github.com/IonicaBizau/random-flat-colors.git"
   },
   "bugs": {
-    "url": "https://github.com/IonicaBizau/random-flat-color/issues"
+    "url": "https://github.com/IonicaBizau/random-flat-colors/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/random-flat-color#readme",
+  "homepage": "https://github.com/IonicaBizau/random-flat-colors#readme",
   "dependencies": {
     "flat-colors-groupped": "^1.0.0",
     "unique-random-array": "^1.0.0"
