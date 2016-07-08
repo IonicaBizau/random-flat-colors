@@ -13,3 +13,10 @@ console.log(smartFlatColor("green"));
 
 console.log(smartFlatColor("white,gray"));
 // => #27ae60
+
+let fn = smartFlatColor("white,gray", true);
+console.log(fn());
+// => #bdc3c7
+
+console.log(fn());
+// => #7f8c8d
