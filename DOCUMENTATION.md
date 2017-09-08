@@ -6,6 +6,7 @@ You can see below the API reference of this module.
 Get a random flat color from a group of colors.
 
 #### Params
+
 - **Array** `groups`: An array of flat color groups. The supported group names are:
  - blue
  - teal
